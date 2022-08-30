@@ -1,4 +1,4 @@
-import PostNav from "../components/navigations/PostNav";
+import PostNav from "../components/navigations/postNavigation/PostNav";
 import PostStoryTrays from "../components/storyTrays/PostStoryTrays/PostStoryTrays";
 import "./Tab1.css";
 

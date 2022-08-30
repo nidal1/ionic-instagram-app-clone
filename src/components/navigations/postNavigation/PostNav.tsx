@@ -1,8 +1,8 @@
 import { IonButton, IonHeader, IonToolbar } from "@ionic/react";
-import InstagramLogo from "../../assets/svg/instagram-logo.svg";
-import HeartIcon from "../../assets/svg/heart-icon.svg";
-import AddtIcon from "../../assets/svg/add-icon.svg";
-import MessengerIcon from "../../assets/svg/messenger-icon.svg";
+import InstagramLogo from "../../../assets/svg/instagram-logo.svg";
+import HeartIcon from "../../../assets/svg/heart-icon.svg";
+import AddtIcon from "../../../assets/svg/add-icon.svg";
+import MessengerIcon from "../../../assets/svg/messenger-icon.svg";
 
 import "./PostNav.scss";
 export default function PostNav() {
