@@ -30,10 +30,8 @@ export default function PostContent({
           setSlidesCount(swiper.slides.length);
         }}
         onSlideChange={(swiper) => {
-          setCurrentActiveSlideIndex(() => {
-            setActiveSlideIndex(swiper?.activeIndex);
-            return swiper?.activeIndex;
-          });
+          setCurrentActiveSlideIndex(swiper?.activeIndex);
+          setActiveSlideIndex(swiper?.activeIndex);
         }}
         className="max-w-full"
       >

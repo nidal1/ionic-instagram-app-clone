@@ -20,7 +20,7 @@ export default function BulletsWrapper({
     }
 
     setBullets(bulletsArr);
-  }, [activeSlideIndex]);
+  }, [activeSlideIndex, slidesCount]);
 
   return (
     <div className="flex-[0.34] gap-[6px] flex justify-center items-center">
